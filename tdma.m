@@ -3,9 +3,7 @@
 %  COMPLEX data in memory for single- or multi-dimensional problems.
 %  
 %    Use the following command to build this MEX file:
-%        mex -R2018a tdma.cpp, or
-%        mex -R2018a tdma.c threadpool.c
-%    Depending on which version you're using.
+%        mex -R2018a 'CFLAGS=-mavx' tdma.c threadpool.c
 % 
 %    Used to solve tridiagonal matrix problems of the form
 %  
@@ -84,5 +82,4 @@
 %         > 40% compared to the single threaded case though.
 %
 %         For simpler 2D problems that don't require permutation or
-%         reshaping of data, using four threads I've seen approach almost
-%         3x speedup!
+%         reshaping of data, using four threads I've seen >3x speedup!
