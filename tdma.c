@@ -6,6 +6,7 @@
 #include "matlab_version.c"
 #include "matlab_version.h"
 #include "threadpool.h"
+#include "threadpool.c"
 #include <math.h>
 #include <immintrin.h>
 
