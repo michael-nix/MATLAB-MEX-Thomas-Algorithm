@@ -3,7 +3,7 @@
 %  COMPLEX data in memory for single- or multi-dimensional problems.
 %  
 %    Use the following command to build this MEX file:
-%        mex -R2018a 'CFLAGS=-mavx' tdma.c threadpool.c
+%        mex -R2018a 'CFLAGS=-mavx' tdma.c
 % 
 %    Used to solve tridiagonal matrix problems of the form
 %  
