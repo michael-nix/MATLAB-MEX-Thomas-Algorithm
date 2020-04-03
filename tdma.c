@@ -1,5 +1,5 @@
 //    Use the following command to build this MEX file:
-//        mex -R2018a tdma.c threadpool.c
+//        mex -R2018a 'CFLAGS=-mavx' tdma.c
 
 #include "mex.h"
 #include "matrix.h"
